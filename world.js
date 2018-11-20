@@ -36,7 +36,7 @@ window.onload=function(){
      }; 
      console.log(tick.value);
      
-     if (tick.value == true){
+     if (tick.checked == "checked"){
      var nurl=url + search_value;
      httpRequest.open("get",nurl);
      httpRequest.send(); 
